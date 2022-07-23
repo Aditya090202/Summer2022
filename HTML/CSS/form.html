@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hello!</title>
+</head>
+
+<body>
+    <h1>Form Page</h1>
+    <hr>
+    <form action="/pizza">
+        <p id="style 1">
+            <label for="Username">Enter Your Username</label>
+            <input id="Username" type="textbox" placeholder="Username" required>
+        </p>
+        <p>
+            <label for="color"> Choose your favorite color! </label>
+            <input id="color" type="color"></input>
+        </p>
+        <p>
+            <label for="password">Enter your password</label>
+            <input id="password" type="password" placeholder="Enter your password"></input>
+        </p>
+        <div>
+            <button type="submit">
+             Submit the Form
+           </button>
+        </div>
+    </form>
+    <hr>
+    <h2>Hijacking Searches</h2>
+    <h3>Search Quora</h3>
+    <form action="https://www.quora.com/search">
+        <input type="textbox" name="q">
+        <button type="submit">Search Quora</button>
+    </form>
+    <h3>Search Youtube</h3>
+    <form action="https://www.youtube.com/results">
+        <input type="textbox" name="search_query">
+        <button type="submit">Search Youtube</button>
+    </form>
+    <form action="/Web Development/">
+        <select name="menu" id="order-menu">
+            <option value="Fish">Fish</option>
+            <option value="Non-vegetarian">Chicken</option>
+            <option value="Vegetarian">Vegetarian</option>
+         </select>
+        <button type="submit">Submit Form</button>
+        <input type="range" id="volume" name="volume" min="0" max="100">
+        <label for="volume">Volume Settings</label>
+    </form>
+    <hr>
+</body>
+
+</html>
